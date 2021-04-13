@@ -19,14 +19,6 @@ public class BestAlbum {
         		genreList.add(genres[i]);
         	}
         }
-
-        System.out.println("genreList.size() = " + genreList.size());
-        System.out.println();
-        System.out.println("genrePlay<Key : value>");
-        for(int i = 0 ; i < genreList.size() ; i++) {
-        	System.out.println(genreList.get(i) +  " : " + genrePlay.get(genreList.get(i)));
-        }
-        System.out.println();
         
         String[] genreRank = new String[genreList.size()];
         
@@ -39,12 +31,6 @@ public class BestAlbum {
         	}
         	genreRank[rank] = genreList.get(i);
         }
-
-        System.out.println("genreRank[i] = value");
-        for(int i = 0 ; i < genreRank.length ; i++) {
-            System.out.println("genreRank[" + i + "] = " + genreRank[i]);
-        }
-        System.out.println();
         
         for(int i = 0 ; i < genreRank.length ; i++) {
         	ArrayList<Integer> songList = new ArrayList<Integer>();
@@ -53,12 +39,6 @@ public class BestAlbum {
         			songList.add(j);
         		}
         	}
-
-            System.out.println(genreRank[i] + " songList(j) : value");
-            for(int j = 0 ; j < songList.size() ; j++) {
-            	System.out.println("songList(" + j + ") : " + songList.get(j));
-            }
-            System.out.println();
 
     		int max = 0;
     		int topSong = 0;
