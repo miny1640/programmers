@@ -11,8 +11,10 @@ public class BestAlbumExcute {
 		
 		//String[] genres = {"classic", "pop", "classic", "classic", "pop"};
 		//int[] plays = {500, 600, 150, 800, 2500};
-		String[] genres = {"classic", "pop", "classic", "classic","jazz","pop", "Rock", "jazz"};
-		int[] plays = {500, 600, 150, 800, 1100, 2500, 100, 1000};
+		//String[] genres = {"classic", "pop", "classic", "classic","jazz","pop", "Rock", "jazz"};
+		//int[] plays = {500, 600, 150, 800, 1100, 2500, 100, 1000};
+		String[] genres = {"A", "A", "B", "A", "B", "B", "A", "A", "A", "A"};
+		int[] plays = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
 		
 		int[] sol = ba.solution(genres, plays);
 		
